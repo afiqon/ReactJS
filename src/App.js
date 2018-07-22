@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Redirect, Switch,withRouter } from 'react-router-dom';
+import { hashHistory } from 'react-router';
 import ModuleList from './component/moduleList';
 import './App.css'; 
 
